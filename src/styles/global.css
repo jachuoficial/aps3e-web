@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Phatboyslim';
+  src: url('/fonts/Phatboyslim.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-phatboy: 'Phatboyslim', 'sans-serif';
+}
