@@ -1,5 +1,6 @@
 ---
 import '@/styles/global.css'
+import Warning from '@/components/Warning.astro';
 import Header from '@/components/Header.astro';
 ---
 <!doctype html>
@@ -11,6 +12,7 @@ import Header from '@/components/Header.astro';
 		<title>aps3e - PS3 Emulator for Android</title>
 	</head>
 	<body>
+	    <Warning />
 	    <Header />
 		<slot />
 	</body>
